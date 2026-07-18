@@ -1,0 +1,11 @@
+
+\documentclass{standalone}
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+  \draw (0,0) node[and port] (A) {}
+        (A.in 1) node[left] {$A$}
+        (A.in 2) node[left] {$B$}
+        (A.out) node[right] {$A \land B$};
+\end{circuitikz}
+\end{document}
